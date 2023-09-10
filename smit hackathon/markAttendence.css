@@ -1,0 +1,140 @@
+/* Reset default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the heading */
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+/* Style the button container */
+.button-container {
+    margin-top: 20px;
+}
+
+/* Style the buttons */
+.button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #2980b9;
+}
+.returnBtn{
+    background-color: rgb(241, 48, 48);
+    color: white;
+}
+.returnBtn:hover{
+    background-color: #35b929;
+}
+.showStudents{
+    width:100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.studentRow{
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.attendance{
+    width:50px;
+    height: 20px;
+
+}
+.emptyDiv{
+    width:100%;
+    height: 2px;
+    background-color: black;
+}
+.submitBtn{
+    background-color: rgb(157, 241, 157);
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+.editBtn{
+    background-color: rgb(185, 189, 250);
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+.courseTitle{
+    text-align: center;
+    height: 30px;
+    background-color: white;
+    padding: 20px;
+}
+.date{
+      text-align: center;
+    height: 20px;
+    background-color: white;
+}
+.attendanceHeader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 80%;
+}
+
+.attendanceHeader p {
+    flex: 1; /* Distribute available space evenly among all elements */
+    text-align: center;
+    margin: 0;
+}
+.editInfoWork {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: #868282e7;
+}
+.editInfoWork h1{
+    margin: 10px;
+}
+.editInfoWork input[type="text"],
+.editInfoWork select,
+.editInfoWork button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.done{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Rest of your CSS styles */

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./markAttendence.css" />
+    <title>mark attendance</title>
+  </head>
+  <body>
+    <header>
+      <h1>mark attendance for</h1>
+      <div class="button-container">
+        <button class="button webdev">web development</button>
+        <button class="button AI">AI</button>
+        <button class="button graphicDesigning">graphic designing</button>
+        <button class="button videoEditing">video editing</button>
+        <button class="button digitalMarketing">digital marketing</button>
+        <button class="button returnBtn">return to dashboard</button>
+        <button class="button createStudent">create new student</button>
+      </div>
+    </header>
+    <h1 class="courseTitle"></h1>
+    <div class="date"></div>
+
+    <div class="showStudents"></div>
+    <!-- edit info -->
+
+    <div class="editInfoWork">
+          <h1>change student's info</h1>
+        <input type="text" id="name" name="name" required placeholder="change name"/>
+        <input type="text" id="batchNo" name="batchNo" required placeholder="change batch no"/>
+        <label for="courseName">Choose course name:</label>
+          <select name="chooseCourse" id="chooseCourse">
+            <option value="Web Development">web development</option>
+            <option value="Graphic Designing">graphic designing</option>
+            <option value="AI">AI</option>
+            <option value="Video Editing">video editing</option>
+            <option value="Digital Marketing">digital marketing</option>
+          </select>
+        <button class="done">done</button>
+      </div>
+
+    <script type="module" src="./config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./markAttendence.js"></script>
+  </body>
+</html>

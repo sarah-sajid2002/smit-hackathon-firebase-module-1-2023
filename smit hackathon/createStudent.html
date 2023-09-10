@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="createStudent.css">
+    <title>create student |SMIT</title>
+</head>
+<body>
+    <header>
+        <h1>create a student | SMIT</h1>
+      </header>
+      <div class="addStudent">
+        <div class="addStudentWork">
+         <input type="text" class="studentName" placeholder="student name">
+         <input type="email" class="studentEmail" placeholder="student email">
+          <label for="courseName">Choose course name:</label>
+          <select name="chooseCourse" id="chooseCourse">
+            <option value="Web Development">web development</option>
+            <option value="Graphic Designing">graphic designing</option>
+            <option value="AI">AI</option>
+            <option value="Video Editing">video editing</option>
+            <option value="Digital Marketing">digital marketing</option>
+          </select>
+          <input type="text" class="batchNo" placeholder="enter batch no" />
+          <button class="done">done</button>
+        </div>
+      </div>
+      <button class="dashboard">dashboard</button>
+      <script  type="module"  src="./config.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script  type="module"  src="./createStudent.js"></script>
+</body>
+</html>
